@@ -34,7 +34,7 @@ public class Controller {
 
 		ArrayList<String> elements = new ArrayList<String>();
 		ArrayList<Integer> numbers = new ArrayList<Integer>();
-		float sum;
+		float sum = 0;
 		int upperCase;
 		int lowerCase;
 		String elem;
@@ -44,7 +44,6 @@ public class Controller {
 		int number;
 		String result = null;
 
-		sum = 0;
 		elements.removeAll(elements);
 		numbers.removeAll(numbers);
 
